@@ -1,0 +1,27 @@
+{
+  "name": "prerender-gridsome",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "start": "gridsome develop",
+    "explore": "gridsome explore",
+    "lint": "eslint  --ext .vue --fix . "
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "gridsome": "^0.5.0",
+    "vue-flickity": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-gridsome": "^1.2.4",
+    "eslint-plugin-vue": "^5.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-resources-loader": "^1.2.1",
+    "vue-eslint-parser": "^6.0.4"
+  }
+}
